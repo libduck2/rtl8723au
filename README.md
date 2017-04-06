@@ -1,17 +1,7 @@
-Installing:
------------
-To get this file, you should have done
-    git clone https://github.com/lwfinger/rtl8723au.git
+# rtl8723au
 
-To install, you need to run the following commands
+this is rtl8723au driver from lwfinger.
 
-    cd rtl8723au/
-    make
-    sudo make install
-    sudo modprobe 8723au
-    
-    
-From: [askubuntu][1]
+I'll try to port this to [DFBSD](www.dragonflybsd.org) sometime.
 
-
-[1]: http://askubuntu.com/a/358479/157129
+it will be an external package/dport because GPLv2.
